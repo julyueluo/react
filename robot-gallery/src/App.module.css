@@ -1,5 +1,6 @@
 .app {
   text-align: center;
+  padding: 0 7.5vw;
 }
 
 .appHeader {
@@ -14,6 +15,11 @@
 .appLogo {
   height: 10vmin;
   pointer-events: none;
+}
+
+h1 {
+  font-family: 'hongLei';
+  font-size: 72px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

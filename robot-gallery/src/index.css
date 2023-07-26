@@ -7,8 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: cadetblue;
 }
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+@font-face {
+  font-family: 'pigtruman';
+  src: local('pigtruman') ,  url(./assets/fonts/pigtruman.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'hongLei';
+  src: local('hongLei'), url(./assets/fonts/hongLei.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'shangshou';
+  src: local('shangshou'), url(./assets/fonts/shangshou.ttf) format('truetype');
 }
